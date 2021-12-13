@@ -15,7 +15,7 @@
     "npm": "8.2.0"
   },
   "scripts": {
-    "build:front": "cd front && yarn build"
+    "build:front": "yarn workspace front build"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.0.0-rc.2"
