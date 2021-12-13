@@ -1,0 +1,17 @@
+{
+  "name": "next-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "front/*"
+    ]
+  },
+  "volta": {
+    "node": "16.13.1",
+    "yarn": "1.22.17",
+    "npm": "8.2.0"
+  }
+}
